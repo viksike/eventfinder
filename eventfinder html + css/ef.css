@@ -83,7 +83,6 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    break-after: always;
     page-break-after: always; }
   .fr-view .fr-file {
     position: relative; }
@@ -42551,7 +42550,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
  .u-header {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.9), rgba(255,255,255,0.9)), url("images/background.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("images/background.jpg");
   background-position: 50% 11.85%;
 }
 
@@ -42572,14 +42571,14 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-text-1 {
-  text-transform: uppercase;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 194px 0 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 186px 0 0;
 }
 
 .u-header .u-menu-1 {
-  margin: -45px -553px 58px auto;
+  margin: -57px -553px 58px auto;
 }
 
 .u-header .u-nav-1 {
@@ -42595,10 +42594,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
     min-height: 127px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -45px;
   }
 }
 @media (max-width: 991px) {
@@ -42621,7 +42616,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
  .u-footer {
-  background-image: linear-gradient(#f2f2f2, white);
+  background-image: none;
 }
 
 .u-footer .u-sheet-1 {
